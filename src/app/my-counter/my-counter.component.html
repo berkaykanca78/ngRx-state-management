@@ -1,0 +1,69 @@
+<header>
+  <h1>My Counter Shop</h1>
+  <div class="cart">
+    <button id="cart-button" style="background-color: red" (click)="reset()">
+      Reset Cart
+    </button>
+    &nbsp;
+    <button id="cart-button">
+      Cart (<span id="cart-count">{{ count$ | async }}</span
+      >)
+    </button>
+  </div>
+</header>
+<main>
+  <div class="product">
+    <h2>Product 1</h2>
+    <p>$10.00</p>
+    <button class="add-to-cart" data-price="10" (click)="increment()">
+      Add to Cart
+    </button>
+    <br />
+    <br />
+    <button
+      class="add-to-cart"
+      data-price="10"
+      (click)="decrement()"
+      style="background-color: red"
+    >
+      Remove From Cart
+    </button>
+  </div>
+  <div class="product">
+    <h2>Product 2</h2>
+    <p>$20.00</p>
+    <button class="add-to-cart" data-price="20" (click)="increment()">
+      Add to Cart
+    </button>
+    <br />
+    <br />
+    <button
+      class="add-to-cart"
+      data-price="10"
+      (click)="decrement()"
+      style="background-color: red"
+    >
+      Remove From Cart
+    </button>
+  </div>
+  <div class="product">
+    <h2>Product 3</h2>
+    <p>$30.00</p>
+    <button class="add-to-cart" data-price="30" (click)="increment()">
+      Add to Cart
+    </button>
+    <br />
+    <br />
+    <button
+      class="add-to-cart"
+      data-price="10"
+      (click)="decrement()"
+      style="background-color: red"
+    >
+      Remove From Cart
+    </button>
+  </div>
+</main>
+<footer>
+  <p>&copy; 2024 My Counter Shop | All Rights Reserved.</p>
+</footer>
