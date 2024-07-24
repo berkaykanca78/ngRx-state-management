@@ -4,9 +4,9 @@
 
 <h2 align="center"> Front-End Application </h2>
 
-<h4 align="center"> ~ Using Angular, @ngrx/store  ~ </h4>
+<h4 align="center"> ~ Using @angular/cli, @ngrx/store  ~ </h4>
 
 ## Packages Versions
 
-- Angular : 18.0.3
+- @angular/cli : 18.0.3
 - @ngrx/store : 18.0.1
